@@ -164,6 +164,9 @@ function valideInfosFrais($dateFrais,$libelle,$montant){
 			}			
 		}
 	}
+	if($libelle == ""){
+		ajouterErreur("Le champ description ne peut pas être vide");
+	}
 	if($montant == ""){
 		ajouterErreur("Le champ montant ne peut pas être vide");
 	}

@@ -8,7 +8,7 @@
                      
     </p>
   	<table class="listeLegere">
-  	   <caption>Eléments forfaitises </caption>
+  	   <caption>Eléments forfaitisés </caption>
         <tr>
          <?php
          foreach ( $lesFraisForfait as $unFraisForfait ) 
@@ -33,11 +33,11 @@
 		</tr>
     </table>
   	<table class="listeLegere">
-  	   <caption>Descriptif des eléments hors forfait -<?php echo $nbJustificatifs ?> justificatifs reçus -
+  	   <caption>Descriptif des éléments hors forfait -<?php echo $nbJustificatifs ?> justificatifs reçus -
        </caption>
              <tr>
                 <th class="date">Date</th>
-                <th class="libelle">libelle</th>
+                <th class="libelle">Libellé</th>
                 <th class='montant'>Montant</th>                
              </tr>
         <?php      
