@@ -2,11 +2,11 @@
       <h2>Validation des frais</h2>
 
           <h3> Validation des frais par visiteur</h3>
- Choisir le visiteur:<select>
- 						<option></option>
- 					</select><br>
- Mois : <input type="text"></input>
-	
+        Choisir le visiteur:
+        <select>
+            <option></option>
+        </select><br>
+
 	<h3>Frais au forfait</h3>
     
     <table>
@@ -15,7 +15,7 @@
 		<td>Nuitée </td>
 		<td>Etape </td>
 		<td> Km </td>
-		<td> Situation </td>
+		<td> Situation validée ?</td>
 	</tr>
 	<tr>
 		<td><input type="text"></input></td>
@@ -23,10 +23,7 @@
 		<td><input type="text"></input></td>
 		<td><input type="text"></input></td>
 		<td> 
-			<select>
- 					<option>Enregistré</option>
- 					<option>Validé</option>
- 			</select>
+                    <input type="checkbox"></input>
  		</td>
 		 
 	</tr>
