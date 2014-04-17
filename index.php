@@ -9,7 +9,6 @@ if(!isset($_REQUEST['uc']) || !$estConnecte){
      $_REQUEST['uc'] = 'connexion';
 }	 
 $uc = $_REQUEST['uc'];
-//chaussettes
 switch($uc){
 	case 'connexion':{
 		include("controleurs/c_connexion.php");break;
