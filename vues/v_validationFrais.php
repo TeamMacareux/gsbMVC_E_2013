@@ -1,11 +1,6 @@
 <div id="contenu">
       <h2>Validation des frais</h2>
 
-          <h3> Validation des frais par visiteur</h3>
-        Choisir le visiteur:
-        <select>
-            <option></option>
-        </select><br>
 
 	<h3>Frais au forfait</h3>
     
