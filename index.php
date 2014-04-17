@@ -9,6 +9,7 @@ if(!isset($_REQUEST['uc']) || !$estConnecte){
      $_REQUEST['uc'] = 'connexion';
 }	 
 $uc = $_REQUEST['uc'];
+//chaussettes
 switch($uc){
 	case 'connexion':{
 		include("controleurs/c_connexion.php");break;
@@ -18,6 +19,13 @@ switch($uc){
 	}
 	case 'etatFrais' :{
 		include("controleurs/c_etatFrais.php");break; 
+	}	
+	case 'remboursementFrais' :{
+		include("controleurs/c_remboursementFrais.php");break; 
+		}
+	case 'validationFrais' :{
+		include("controleurs/c_validationFrais.php");break; 
+	
 	}
 }
 include("vues/v_pied.php") ;
